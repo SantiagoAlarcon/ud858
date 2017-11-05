@@ -19,7 +19,10 @@ function init() {
 	// //localhost:8080/_ah/api
 	// //your-app-id/_ah/api
 
+
+	console.log(window.location.host + " my apunte");
 	var rootpath = "//" + window.location.host + "/_ah/api";
+
 	
 	// Load the helloworldendpoints API
 	// If loading completes successfully, call loadCallback function
